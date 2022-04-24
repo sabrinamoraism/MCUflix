@@ -94,9 +94,9 @@ main .minhalista{
 
 }
 
-main{
+main {
 font-size:16px;
-background:linear-gradient(rgba(0, 0, 0, 0.815),rgba(54, 6, 6, 0.945)), url("/img/filmes/capa-dr-estranho.jpg");
+background:linear-gradient(rgba(0, 0, 0, 0.815),rgba(54, 6, 6, 0.945)), url("/img/filmes/dr-estranho-4.jpg");
 background-size:cover;
 display: flex;
 flex-direction: column;
