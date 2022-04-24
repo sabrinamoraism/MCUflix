@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+}
+/* Elementos base */
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+#logo{
+    margin-top: 5px;
+    font-family:"Bebas Neue",coursive;
+    color: var(--vermelho);
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#fff;
+    margin-right: 10px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 17px;
+}
+header nav a:hover{
+    color:rgb(219, 213, 213) ;
+}
+
+main .title{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+
+    font-size:25px;
+    font-weight: bold;
+}
+main .filmes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-filmes{
+    width:15%;
+    margin:5px;
+    min-width: 120px;
+
+}
+main .series{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-series{
+    width:15%;
+    margin:5px;
+    min-width: 120px;
+
+}
+main .minhalista{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-minhalista{
+    width:15%;
+    margin:5px;
+    min-width: 120px;
+
+}
+
+main{
+font-size:16px;
+background:linear-gradient(rgba(0, 0, 0, 0.815),rgba(54, 6, 6, 0.945)), url("/img/filmes/capa-dr-estranho.jpg");
+background-size:cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+main video{
+    padding-bottom: 70px;
+    max-width: 1200px;
+}
+.titulo{
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.frase{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
