@@ -94,7 +94,7 @@ main .minhalista{
 
 }
 
-main {
+.info{
 font-size:16px;
 background:linear-gradient(rgba(0, 0, 0, 0.815),rgba(54, 6, 6, 0.945)), url("/img/filmes/dr-estranho-4.jpg");
 background-size:cover;
@@ -104,7 +104,7 @@ align-items: center;
 justify-content: center;
 }
 
-main video{
+video{
     padding-bottom: 70px;
     max-width: 1200px;
 }
